@@ -1,0 +1,85 @@
+.App {
+    text-align: center;
+    padding: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.notas-container {
+    margin-top: 20px;
+}
+
+.jogador-nota {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.jogador-nota span {
+    margin-right: 10px;
+}
+
+.jogador-nota input {
+    width: 60px;
+    padding: 5px;
+}
+
+.sorteio-button {
+    margin-top: 20px;
+    background-color: #28a745;
+}
+
+.sorteio-button:hover {
+    background-color: #218838;
+}
+.times-container {
+    margin-top: 20px;
+}
+
+.time {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.time h3 {
+    margin-bottom: 10px;
+}
+
+.time ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.time li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.time img {
+    margin-right: 10px;
+}
+
+.time span {
+    margin-right: 10px;
+}
