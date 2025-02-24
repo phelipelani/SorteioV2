@@ -13,7 +13,7 @@ const ListaJogadores = ({ onValidar }) => {
     };
 
     return (
-        <div>
+        <div className="DivImput">
             <textarea
                 value={lista}
                 onChange={handleChange}
